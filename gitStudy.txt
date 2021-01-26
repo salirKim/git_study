@@ -26,4 +26,5 @@
 	git reflog : 모든 내역을 확인하는 reflog를 사용해서 모든 commit id 확인 가능
 6. git revert
 	git revert <commit id> : 파일을 해당 commit 지점으로 되돌리고 revert log를 남긴다.
+	git revert --abort : reverting 된 상태에서 원래 상태로 돌아오는 것
 	
